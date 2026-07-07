@@ -80,12 +80,12 @@ class _LoginPageState extends State<LoginPage> {
         cleanedText.contains("gireesh") ||
         cleanedText.contains("giris")) {
       userName = "Girish";
-      userPhone = "8767445546";
+      userPhone = "123456789";
     } else if (cleanedText.contains("abhiram") ||
         cleanedText.contains("abiram") ||
         cleanedText.contains("abhi ram")) {
       userName = "Abhiram";
-      userPhone = "9324479267";
+      userPhone = "123456789";
     }
 
     // ❌ If not recognized
