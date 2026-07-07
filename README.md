@@ -61,7 +61,7 @@ Analyzes distance data streamed via Bluetooth and triggers immediate multimodal 
 ```text
 lib/                  
 └── blind_stick/
-    ├── main.dart                  # Sub-entry point for blind stick module
+    ├── main.dart                  # Entry point for blind stick module
     ├── login_page.dart            # Speech-to-text login screen with mic interaction
     ├── home.dart                  # Main dashboard hosting voice assistant loops
     ├── connection_page.dart       # Live Bluetooth status & sensor stream visualizations
