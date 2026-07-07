@@ -59,8 +59,7 @@ Analyzes distance data streamed via Bluetooth and triggers immediate multimodal 
 ## 🛠️ Project Structure
 
 ```text
-lib/
-├── main.dart                      # App entry point (initializes TTS & launches LoginPage)
+lib/                  
 └── blind_stick/
     ├── main.dart                  # Sub-entry point for blind stick module
     ├── login_page.dart            # Speech-to-text login screen with mic interaction
@@ -122,9 +121,4 @@ The app is built to work out of the box with standard smart stick configurations
 - **Distance Sensor**: HC-SR04 Ultrasonic Distance Sensor.
 - **Alert Trigger**: Sends float/integer values corresponding to distance (in cm) terminated by a newline (`\n`).
 
----
 
-## 👥 Contributors
-
-- **Girish**
-- **Abhiram**
